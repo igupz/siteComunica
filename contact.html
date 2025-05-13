@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Cleanedt</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto"><a href="index.html">Cleanedt</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li class="dropdown"><a href="#"><span>Cleanedt</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="about.html">História</a></li>
+              <li><a href="team.html">Equipe</a></li>
+              <li><a href="testimonials.html">FeedBack</a></li>
+            </ul>
+          </li>
+          <li><a href="services.html">Serviços</a></li>
+          <li><a href="pricing.html">Planos</a></li>
+          <li><a href="contact.html" class="active">Contato</a></li>
+          <li><a href="index.html" class="getstarted">Quero Contratar</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Contato</h2>
+          <ol>
+            <li><a href="index.html">Início</a></li>
+            <li>Contato</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div>
+          <iframe style="border:0; width: 100%; height: 270px;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.3311423470736!2d-99.87578238581975!3d16.85950592225356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ca5820d211fae9%3A0xaf66d82c892c369b!2sHotel%20Emporio%20Acapulco!5e0!3m2!1spt-BR!2sbr!4v1670281288655!5m2!1spt-BR!2sbr"
+            frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Localização:</h4>
+                <p>Av Costera Miguel Alemán 121<br>Acapulco, México</p>
+              </div>
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>igordesign@contact.com</p>
+              </div>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Telefone:</h4>
+                <p>+52 (49) 99999-0000</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" placeholder="Seu Nome" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" placeholder="Seu Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" placeholder="Assunto" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Carregando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Sua mensagem foi enviada, obrigado!</div>
+              </div>
+              <div class="text-center d-flex justify-content-center gap-3 mt-4">
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#curriculoModal">Enviar Currículo</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Enviar Currículo -->
+  <div class="modal fade" id="curriculoModal" tabindex="-1" aria-labelledby="curriculoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="btn-primary">Enviar Currículo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <form action="upload-curriculo.php" method="post" enctype="multipart/form-data">
+          <div class="modal-body">
+            <div class="mb-3">
+              <label class="form-label">Nome Completo</label>
+              <input type="text" class="form-control" name="nome" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">E-mail</label>
+              <input type="tel" class="form-control" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Telefone</label>
+              <input type="text" class="form-control" name="telefone" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Currículo (PDF)</label>
+              <input type="file" class="form-control" name="curriculo" accept=".pdf" required>
+            </div>
+          </div>
+          <div class="modal-footer d-flex justify-content-end gap-2">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <a href="https://wa.me/5521999999999" target="_blank" class="whatsapp-float">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      padding: 23px;
+      font-size: 24px;
+      z-index: 999;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    }
+  </style>
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-info">
+            <h3>Cleanedt</h3>
+            <p>
+              Av Costera Miguel Alemán 121<br>
+              Acapulco, MEX<br><br>
+              <strong>Telefone:</strong> +52 (49) 99999-0000<br>
+              <strong>Email:</strong> igordesign@contact.com<br>
+            </p>
+            <div class="social-links mt-3">
+              <a href="https://pt-br.facebook.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/igu_petry" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Acesso Rápido</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Início</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="about.html">História</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="services.html">Serviços</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="pricing.html">Planos</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Outros Serviços</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Web Design</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Desenvolvimento Web</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Marketing</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Designer Gráfico</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4>Fique Por Dentro De Tudo</h4>
+          <p>Receba atualizações de promoções, novos planos, novos locais e muito mais!</p>
+          <form action="" method="post">
+            <input type="email" name="email"><input type="submit" value="Inscrever-se">
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Cleanedt</span></strong>. Todos os Direitos Reservados
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/sailor-free-bootstrap-theme/ -->
+      Desenvolvido por <a href="https://bootstrapmade.com/">Igor Petry</a>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
